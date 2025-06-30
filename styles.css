@@ -26,7 +26,7 @@ body {
     align-items: center;
     position: relative;
     background: url('image.png') center no-repeat;
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -776,26 +776,15 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
     .hero-section {
-        height: 100vh;
-        min-height: 100vh;
-        background-size: cover;
         background-position: center center;
         background-attachment: scroll;
     }
-
+    
     .hero-container {
         justify-content: center;
         text-align: center;
         padding: 0 20px 60px 20px;
-        height: 100vh;
-        min-height: 100vh;
     }
     
     .hero-content {
