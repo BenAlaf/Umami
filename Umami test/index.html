@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMAMI - The First Social App Made for Food Lovers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="brand-name">Umami</div>
+                <h1 class="hero-headline">The first social app made for food lovers.</h1>
+                <p class="hero-subheadline">Watch, cook, and book — all in one place, powered by AI.</p>
+                
+                <form class="waitlist-form" data-aos="slide-up" data-aos-delay="300" data-aos-duration="800">
+                    <div class="form-group">
+                        <input type="text" id="firstName" placeholder="First name" required>
+                        <input type="email" id="email" placeholder="Email address" required>
+                        <button type="submit" class="cta-button">Join the Waitlist</button>
+                    </div>
+                    <p class="form-microtext">We'll never spam you.</p>
+                </form>
+
+                <div class="social-proof" data-aos="fade-up" data-aos-delay="600">
+                    <span class="stars">★★★★★</span>
+                    <span class="testimonial-text">"Finally, a social app that gets my food obsession!"</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">🤖</div>
+                    <h3>Turn any food video into a recipe with AI</h3>
+                    <p>Our AI watches videos and creates step-by-step recipes instantly. No more pausing and rewinding.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">👨‍🍳</div>
+                    <h3>Cook step-by-step with your voice-guided chef</h3>
+                    <p>Get hands-free cooking guidance with AI voice commands. Never touch your phone with messy hands again.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">📍</div>
+                    <h3>Discover & book restaurants through posts</h3>
+                    <p>See a dish you love? Book a table instantly. Connect social discovery with real dining experiences.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-icon">🍽️</div>
+                    <h3>100% food-focused community</h3>
+                    <p>No distractions, no politics, no drama. Just pure food content from passionate food lovers like you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Demonstration Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 data-aos="fade-up">See UMAMI in action</h2>
+            <div class="demo-gallery">
+                <div class="demo-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="demo-phone">
+                        <div class="demo-screen">
+                            <div class="demo-content ai-feature">
+                                <h4>AI Recipe Generation</h4>
+                                <div class="demo-video-preview"></div>
+                                <div class="ai-process">
+                                    <div class="ai-step">📹 Analyzing video...</div>
+                                    <div class="ai-step">🔍 Extracting ingredients...</div>
+                                    <div class="ai-step">✅ Recipe ready!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="demo-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="demo-phone">
+                        <div class="demo-screen">
+                            <div class="demo-content voice-feature">
+                                <h4>Voice-Guided Cooking</h4>
+                                <div class="voice-waveform">
+                                    <div class="wave"></div>
+                                    <div class="wave"></div>
+                                    <div class="wave"></div>
+                                    <div class="wave"></div>
+                                </div>
+                                <p>"Now add the garlic and sauté for 30 seconds..."</p>
+                                <button class="voice-button">🎤 Listening...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="demo-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="demo-phone">
+                        <div class="demo-screen">
+                            <div class="demo-content booking-feature">
+                                <h4>Restaurant Booking</h4>
+                                <div class="restaurant-card">
+                                    <div class="restaurant-image"></div>
+                                    <div class="restaurant-info">
+                                        <h5>Mama's Italian Kitchen</h5>
+                                        <p>⭐ 4.8 • Italian • $$</p>
+                                        <button class="book-button">Book Table</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="social-proof" class="social-proof-section">
+        <div class="container">
+            <h2 data-aos="fade-up">What food lovers are saying</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-avatar">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face" alt="Sarah M.">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"I've been waiting for something like this my whole life. Finally, a social app that speaks my language!"</p>
+                        <cite>Sarah M., Home Chef</cite>
+                    </div>
+                </div>
+                
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-avatar">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Marcus T.">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"The AI recipe feature is mind-blowing. I watch cooking videos and boom - perfect recipe every time."</p>
+                        <cite>Marcus T., Food Blogger</cite>
+                    </div>
+                </div>
+                
+                <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-avatar">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Elena R.">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Love how I can discover restaurants through actual food posts. It feels so much more authentic."</p>
+                        <cite>Elena R., Restaurant Explorer</cite>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="partner-logos" data-aos="fade-up" data-aos-delay="400">
+                <p>Partnering with top restaurants and food creators</p>
+                <div class="logos-scroll">
+                    <div class="logo-item">🍕 Tony's Pizza</div>
+                    <div class="logo-item">🍜 Ramen House</div>
+                    <div class="logo-item">🥘 Spice Garden</div>
+                    <div class="logo-item">🍰 Sweet Dreams</div>
+                    <div class="logo-item">🥗 Fresh Bowl</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Got questions? We've got answers.</h2>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="faq-question">
+                        <span>Do I need to be a chef to use this?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Not at all! UMAMI is designed for everyone who loves food, from complete beginners to professional chefs. Our AI guides you through every step, making cooking accessible and fun for all skill levels.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="faq-question">
+                        <span>How do the AI tools work?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our AI analyzes cooking videos to extract ingredients, techniques, and timing. It then creates personalized recipes and provides voice guidance while you cook. It's like having a sous chef who never gets tired!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <button class="faq-question">
+                        <span>Can I really book restaurants through the app?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We partner with restaurants to offer seamless booking. When you see a dish you love from a restaurant, you can check availability and book a table directly through UMAMI.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <button class="faq-question">
+                        <span>When will UMAMI be available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're launching in early 2024! Join our waitlist to be among the first to experience UMAMI and get exclusive early access to beta features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="final-cta" class="final-cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Be the first to taste what's coming.</h2>
+                <p>Join thousands of food lovers already on our waitlist</p>
+                
+                <form class="final-waitlist-form" data-aos="slide-up" data-aos-delay="200">
+                    <div class="form-group">
+                        <input type="text" placeholder="First name" required>
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit" class="cta-button">Join the Waitlist</button>
+                    </div>
+                    <p class="form-microtext">We'll never spam you.</p>
+                </form>
+                
+                <div class="waitlist-count" data-aos="fade-up" data-aos-delay="400">
+                    <div class="count-number" id="waitlist-counter">2,847</div>
+                    <p>food lovers already waiting</p>
+                </div>
+            </div>
+            
+            <div class="cta-visual" data-aos="fade-left" data-aos-delay="300">
+                <div class="floating-elements">
+                    <div class="floating-item" style="--delay: 0s">🍕</div>
+                    <div class="floating-item" style="--delay: 1s">🍜</div>
+                    <div class="floating-item" style="--delay: 2s">🥘</div>
+                    <div class="floating-item" style="--delay: 0.5s">🍰</div>
+                    <div class="floating-item" style="--delay: 1.5s">🥗</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
